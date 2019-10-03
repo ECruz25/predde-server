@@ -3,13 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "antd": "^3.22.2",
     "axios": "^0.18.0",
     "react": "^16.8.6",
     "react-async-script-loader": "^0.3.0",
     "react-dom": "^16.8.6",
     "react-router-dom": "^5.0.0",
-    "react-scripts": "2.1.8",
+    "react-scripts": "^2.1.8",
     "styled-components": "^4.2.0"
   },
   "scripts": {

@@ -26,10 +26,6 @@ const orderSchema = new Schema({
     required: true,
     type: String
   },
-  shippingState: {
-    required: true,
-    type: String
-  },
   billingCity: {
     required: true,
     type: String

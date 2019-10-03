@@ -5,8 +5,7 @@ require('dotenv').config({
 });
 
 mongoose.connect(process.env.DATABASE, {
-  useNewUrlParser: true,
-  connectTimeoutMs: 3000
+  useNewUrlParser: true
 });
 mongoose.set('useCreateIndex', true);
 mongoose.connection.on('error', err => {
@@ -24,7 +23,7 @@ const app = require('./app');
 const debug = require('debug')('server:server');
 const http = require('http');
 
-const port = normalizePort(process.env.PORT || '5000');
+const port = normalizePort(process.env.PORT || '3001');
 app.set('port', port);
 
 const server = http.createServer(app);
